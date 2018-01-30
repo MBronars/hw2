@@ -1,0 +1,38 @@
+//Best if watched at full speed
+function setup() {
+  createCanvas(340, 340);
+}
+
+function draw() {
+  strokeWeight(5);
+  fill(random(255),random(255),random(255));
+  rect(5,5,70,50);
+  fill(random(255),random(255),random(255));
+  rect(5,55,70,120);
+  fill(random(255),random(255),random(255));
+  rect(5,175,35,60);
+
+  fill(random(255),random(255),random(255));
+  rect(40,175,35,60);
+  fill(random(255),random(255),random(255));
+  rect(5,235,70,90)
+  
+  fill(random(255),random(255),random(255));
+  rect(75,5,50,100);
+  fill(random(255),random(255),random(255));
+  rect(125,5,50,100);
+  fill(random(255),random(255),random(255));
+  rect(75,105,100,220);
+  
+  
+  fill(random(255),random(255),random(255));
+  rect(175,5,100,70);
+  fill(random(255),random(255),random(255));
+  rect(175,75,100,130);
+  fill(random(255),random(255),random(255));
+  rect(175,205,70,120);
+  fill(random(255),random(255),random(255));
+  rect(245,205,30,120);
+  
+}
+  
